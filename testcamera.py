@@ -7,7 +7,7 @@ PREVIEW  = 0  # Preview Mode
 BLUR     = 1  # Blurring Filter
 FEATURES = 2  # Corner Feature Detector
 CANNY    = 3  # Canny Edge Detector
-
+#c
 feature_params = dict(maxCorners=500, qualityLevel=0.2, minDistance=15, blockSize=9)
 s = 0
 if len(sys.argv) > 1:
@@ -15,7 +15,7 @@ if len(sys.argv) > 1:
 
 image_filter = PREVIEW
 alive = True
-
+#check right account
 win_name = "Camera Filters"
 cv2.namedWindow(win_name, cv2.WINDOW_NORMAL)
 result = None
